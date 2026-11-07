@@ -1,0 +1,30 @@
+nav {
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+}
+nav ul li a:hover:not(.active){
+  background-color:#4CAF50;
+  color: white;
+}
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+h1, p {
+  margin-left: 15px;
+}
